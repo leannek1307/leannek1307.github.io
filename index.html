@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>HOME</h2>
+</div>
+
+<ul>
+  <li><a class="active" href="index.html"> Home </a></li>
+  <li><a href="iosApp.html"> iOS App </a></li>
+  <li><a href="Math.html"> Math </a></li>
+  <li><a href="CS.html"> Comp Sci </a></li>
+  <li><a href="Leadership.html"> Leadership </a></li>
+  <li><a href="Comm Tech.html"> Comm Tech </a></li>
+  <li><a href="SchoolLife.html"> School Life </a></li>
+</ul>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Hello! Welcome to my website!</h2>
+	  <img src="../media/dreamboard/dreamboard-01.png" alt="dreamboard" class="responsive">
+      <p><em>Welcome to my website! <br>This website is a supplementary project I worked on to present more of my 4 years of high school. <br>Please feel free to navigate through the web pages, and to read the explanations for each topic. <br><br>Enjoy!</em></p>
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+	  <img src="../media/etc/IMG_7644_Original.PNG" class="responsive" alt="me">
+      <p>Hello! This is Leanne. <br>Welcome to my website :) </p>
+    </div>
+    <div class="card">
+      <h3>Must-read posts</h3>
+      <a href="iosApp.html"><img src="../media/app/ugh.png" width="50px" alt="coSpend"> iOS App</a><br>
+		<a href="Math.html"><img src="../media/etc/IMG_2033.jpg" width="50px" alt="tam"> Math</a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2> © 2019 by Leanne Kim.</h2>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><strong>Top</strong></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
+

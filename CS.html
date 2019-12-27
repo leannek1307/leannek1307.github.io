@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>COMPUTER SCIENCE</h2>
+</div>
+	
+<ul>
+  <li><a href="index.html"> Home </a></li>
+  <li><a href="iosApp.html"> iOS App </a></li>
+  <li><a href="Math.html"> Math </a></li>
+  <li><a class="active" href="CS.html"> Comp Sci </a></li>
+  <li><a href="Leadership.html"> Leadership </a></li>
+  <li><a href="Comm Tech.html"> Comm Tech </a></li>
+  <li><a href="SchoolLife.html"> School Life </a></li>
+</ul>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Experience of Comp Sci at School</h2>
+      <h3>Baby-steps towards the CS field</h3>
+      <p>School was the first source I was introduced to computer science and was different from what I experienced coding, but an interesting field of study. The first programming language I learned was HTML, the markup language for web pages. Then, I was introduced to Java, which was different from HTML. Whereas HTML was focused on the structural aspect of programming, Java focused on the functional aspect, which caught my attention. It was exciting to go to class every day to learn new functions and new creative ways of applying them to different programs. There were some stressful times when the code didn’t function properly or even run the way I wanted it to. In those times, I asked for help from my teacher as well as my peers who have experienced similar problems. What I learned in CS classes at school is that patience is key when it comes to programming, because one single number or a single character can affect the function of the program. That part of coding was also very fascinating because it felt so good when I fix the bug. From these moments, I became certain that I wanted to study more and explore the world of computer science.</p>
+      <p>Below is the link to everything I coded throughout the semester. Files are grouped by chapters.</p>
+	  <a href="https://github.com/leannek1307" target="_blank">Click here;</a>
+    </div>
+    <div class="card">
+      <h2>UW Open CS & CS Circles</h2>
+		<h3>Recap & Relearn Python, HTML</h3>
+      <img src="../media/etc/openCS-01.png" alt="Open CS" style="float:right;height:250px;padding-left:10px">
+      <p>On the CEMC website, I found a website called “UW Open CS”, which provided students who haven’t experienced programming some free online lessons about Python, Web Basics, Web Programming, etc. I immediately thought that this will be a great opportunity to bring the past lessons I learned about Python and HTML in previous years at school. I dedicated about 2 hours every week to finish the lessons, and successfully finished all of the uploaded lessons by the end of November. Also, I discovered “CS Circles”, a website that teaches the basics of the Python programming language. Again, it was a great opportunity for me to consolidate my knowledge in Python. I dedicated about an hour every week to go through the topics such as functions, if statements, debug, rich, recursion, and many more.</p>
+    </div>
+	<div class="card">
+      <h2>Swift & Adobe DreamWeaver</h2>
+      <h3>Swift</h3>
+      <img src="../media/etc/Screen Shot 2019-12-23 at 3.46.33 PM.png" alt="Swift" style="float:right;height:300px;padding:20px">
+      <p>Swift was completely a different language compared to Java, HTML, and Python. Swift is the language used to make iOS Apps, using a program called XCode, which is a program that is constructed in the purpose of iOS app development. Since I had to learn an experienced language all by myself to create an iOS Application, I had to watch various YouTube videos and lessons online to learn the basics of the language. Doing the tutorials and understanding how the program works were the most challenging part. I pushed myself forward and reached out for more resources and tutorials to learn the most I can of Swift. As a result, I was able to make my first-ever application, CoSpend (To discover more about the app, click here). Even though the app may look too simple and functionless to people with Swift experience, but it is one of the biggest accomplishments I have ever made in a long time. The small moments in the experience of app development, I have never found myself so happy and content with anything. I hope that I can go deeper into app development in the future, and hopefully at the University of Waterloo. Can’t wait!</p>
+	  <h3>Adobe DreamWeaver</h3>
+	  <img src="../media/etc/Screen Shot 2019-12-23 at 3.48.59 PM.png" alt="DreamWeaver" style="float:right;height:300px;padding:left:10px;padding-bottom:20px">
+		<p>DreamWeaver is the software that I used to create this website. I figured that 300 characters are not enough for me to prove what I can do, so I used my knowledge of HTML to create this website. However, I found <em>WingsIDE</em> (the software I used at school to make HTML websites) quite inefficient. Adobe DreamWeaver was a perfect choice. The program was easy to operate and user-friendly, so it didn’t take me that much to get comfortable with it. DreamWeaver helped me a lot while coding this website, and I hope that I can learn more functions and tools in it and use them in the future.<br><br><br><br></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="../media/etc/IMG_7644_Original.PNG" class="responsive" alt="me">
+      <p>Hello! This is Leanne. <br>Welcome to my website :) </p>
+    </div>
+    <div class="card">
+      <h3>Must-read posts</h3>
+      <a href="iosApp.html"><img src="../media/app/ugh.png" width="50px" alt="coSpend"> iOS App</a><br>
+		<a href="Math.html"><img src="../media/etc/IMG_2033.jpg" width="50px" alt="tam"> Math</a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2> © 2019 by Leanne Kim.</h2>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><strong>Top</strong></button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+</body>
+</html>
+
